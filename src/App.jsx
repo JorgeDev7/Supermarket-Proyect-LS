@@ -4,11 +4,9 @@ import { ListadoProvider } from "./context/listadoProvider";
 function App() {
 
   return (
-    <>
-      <ListadoProvider>
-        <Layout />
-      </ListadoProvider>
-    </>
+    <ListadoProvider>
+      <Layout />
+    </ListadoProvider>
   )
 }
 
